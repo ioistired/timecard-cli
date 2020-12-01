@@ -17,7 +17,7 @@ setuptools.setup(
 	url='https://github.com/iomintz/pythonpy-clone',
 	version='0.0.0',
 	packages=['timecard'],
-	license='AGPLv3',
+	license='MIT',
 	description='Generate SpongeBob-style time cards',
 	long_description=README,
 	long_description_content_type='text/markdown; variant=GFM',
@@ -31,7 +31,6 @@ setuptools.setup(
 		'Operating System :: OS Independent',
 		'License :: OSI Approved :: MIT License',
 		'License :: Other/Proprietary License',
-		'License :: OSI Approved :: GNU Affero General Public License v3',
 	],
 	entry_points={
 		'console_scripts': ['timecard = timecard:main'],

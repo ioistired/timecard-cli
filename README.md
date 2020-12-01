@@ -5,4 +5,4 @@ command, but may include others.
 
 ## License details
 
-See the legal/ folder for info on what you're allowed to do with this code.
+See the legal/ folder for info on what you're allowed to do with this project.
