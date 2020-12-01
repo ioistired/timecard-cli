@@ -1,1 +1,9 @@
+# used for testing
+/*.png
+
 __pycache__/
+
+# python packaging nonsense
+*.egg-info/
+dist/
+*.whl
