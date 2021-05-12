@@ -14,7 +14,7 @@ with open(HERE / 'requirements.txt') as f:
 
 setuptools.setup(
 	name='timecard-cli',
-	url='https://github.com/iomintz/pythonpy-clone',
+	url='https://github.com/ioistired/timecard-cli',
 	version='0.0.0',
 	packages=['timecard'],
 	license='MIT',
