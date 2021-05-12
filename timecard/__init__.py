@@ -4,13 +4,15 @@ import sys
 
 from collections import namedtuple
 from io import BytesIO
+from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
 Timecard = namedtuple("Timecard", "filename colour shadow_colour")
 
-IMAGES = 'res/images'
-FONT = 'res/kp.ttf'
+HERE = Path(__file__).parent
+IMAGES = HERE / 'res' / 'images'
+FONT = str(HERE / 'res' / 'kp.ttf')
 
 TIMECARD_X_OFFSET = 32
 TIMECARD_Y_OFFSET = 24
