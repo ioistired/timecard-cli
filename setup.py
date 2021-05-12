@@ -33,7 +33,7 @@ setuptools.setup(
 		'License :: Other/Proprietary License',
 	],
 	entry_points={
-		'console_scripts': ['timecard = timecard:main'],
+		'console_scripts': ['timecard = timecard.__main__:main'],
 	},
 	package_data={
 		'timecard': [

@@ -7,4 +7,5 @@ def main():
 	lines = sys.argv[1:] or sys.stdin
 	timecard(lines)
 
-main()
+if __name__ == '__main__':
+	main()
