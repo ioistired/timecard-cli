@@ -1,1 +1,1 @@
-Pillow-SIMD ~= 7.0
+Pillow ~= 8.0
